@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="../dist/css/bootstrap.css">
+  <style media="screen">
+    body {
+      padding-top: 70px;
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/home" class="navbar-brand">ミハル通信</a>
+    </div>
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">
+            <i class="fa fa-cog"></i>
+            <b class="white-space"></b>
+            API
+            <b class="white-space"></b>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">アカウント</li>
+            <li>
+              <a href="/action/account/profile">
+                <i class="fa fa-user"></i>
+                <b class="white-space"></b>
+                プロフィール
+              </a>
+            </li>
+
+            <li class="dropdown-header">Suggest API</li>
+            <li>
+              <a href="/action/suggestion/logs">
+                <i class="fa fa-list"></i>
+                <b class="white-space"></b>
+                Error Logs
+              </a>
+            </li>
+          </ul>
+        </li>
+
+
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">
+            <i class="fa fa-cog"></i>
+            <b class="white-space"></b>
+            管理
+            <b class="white-space"></b>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">ユーザー管理</li>
+            <li>
+              <a href="/miharu/users/invite">
+                <i class="fa fa-sign-out"></i>
+                <b class="white-space"></b>
+                ユーザーの招待
+              </a>
+            </li>
+            <li role="separator" class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="btn-toolbar" role="toolbar" aria-label="...">
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">1</button>
+            <button type="button" class="btn btn-default">2</button>
+            <button type="button" class="btn btn-default">3</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-primary">primary</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-info">info</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-success">success</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-warning">warning</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-danger">danger</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <footer class="footer">
+      <p>
+        &copy; 2016 Miharu Communications Inc.
+      </p>
+    </footer>
+  </div>
+
+
+  <script type="text/javascript" src="./assets/js/jquery-2.2.1.js"></script>
+  <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+</body>
+</html>
